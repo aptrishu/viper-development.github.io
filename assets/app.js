@@ -4,40 +4,46 @@ app.controller('Data', ['$http', function($http , $scope){
 	self.profile = [
 		{
 			"name" : "Lasse Schuirmann",
-			"id" : "@sils",
+			"id" : "<a href='http://github.com/sils'>@sils</a>",
 			"picture" : "https://avatars2.githubusercontent.com/u/5716520",
+			"short_tagline": "",
 			"bio": "Problem solver. Founder of <a href='http://coala.io'>coala</a>, <a href='http://gitmate.io'>GitMate</a> and viperdev and conference speaker."
 		},
 		{
 			"name" : "Mischa Krüger",
-			"id" : "@Makman2",
+			"id" : "<a href='http://github.com/Makman2'>@Makman2</a>",
 			"picture" : "https://avatars3.githubusercontent.com/u/6023916",
+			"short_tagline": "",
 			"bio": "Code & Review Junkie. <a href='http://coala.io'>coala</a> core developer and inventor of the open source CE3D terminal game engine."
 		},
 		{
 			"name" : "Adhityaa Chandrasekar",
-			"id" : "@adtac",
+			"id" : "<a href='http://github.com/adtac'>@adtac</a>",
 			"picture" : "https://avatars2.githubusercontent.com/u/7521600",
+			"short_tagline": "",
 			"bio": "Hardcore hacker. <a href='http://coala.io'>coala</a> core developer and creator of climate and fssb."
 		},
 		{
 			"name" : "Maximilian Scholz",
-			"id" : "@sims1253",
+			"id" : "<a href='http://github.com/sims1253'>@sims1253</a>",
 			"picture" : "https://avatars3.githubusercontent.com/u/6530123",
+			"short_tagline": "",
 			"bio": "Community evangelist. Leader of the <a href='http://coala.io'>coala</a> community team and creator of the LineSpots algorithm."
 		},
 		
                 {
                         "name" : "Sebastian Latacz",
-                        "id" : "@seblat",
+                        "id" : "<a href='http://github.com/seblat'>@seblat</a>",
                         "picture": "https://avatars0.githubusercontent.com/u/18051901",
+                        "short_tagline":"",
                         "bio" : "Business expert. Founder of <a href='http://gitmate.io'>GitMate</a> and solver of the most complicated business problems."
                 },
                 {
 			"name" : "Hemang Kumar",
-			"id" : "@hemangsk",
+			"id" : "<a href='http://github.com/hemangsk'>@hemangsk</a>",
 			"picture": "https://avatars1.githubusercontent.com/u/13018570",
-			"bio" : "Frontend lover. Creates and designs web frontends with passion."
+			"short_tagline":"Frontend Enthusiast",
+			"bio" : "<a href='http://coala.io'>coala</a> developer. Frontend lover. Creates and designs web frontends with passion."
 		}
 	]
 	
