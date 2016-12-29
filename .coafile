@@ -1,5 +1,32 @@
-[Default]
-bears = SpaceConsistencyBear
-files = **.(html|css)
-ignore = vendors/**
+[default]
+bears = LineCountBear, FilenameBear, InvalidLinkBear, coalaBear
+files = **.html, **.md, **.js, **.css, **.yml
+ignore = **.min.(css|js)
+max_lines_per_file = 600
+
+[yaml]
+bears = YAMLLintBear, SpaceConsistencyBear, LineLengthBear, KeywordBear
+files = **.yml
+language = YAML
+use_spaces = yes
+
+[javascript]
+bears = JSComplexityBear
+files = **.js
+
+[html]
+bears = HTMLLintBear, BootLintBear, SpaceConsistencyBear, KeywordBear
+files = **.html
+language = HTML
 use_spaces = yeah
+
+[markdown]
+bears = MarkdownBear, SpaceConsistencyBear, KeywordBear
+files = **.md
+language = markdown
+use_spaces = yes
+
+[css]
+bears = CSSLintBear, SpaceConsistencyBear
+files = **.css
+use_spaces = yes
