@@ -28,7 +28,6 @@ order: 1
 </section>
 <section id="test2">
   <div class="container">
-   <div >
      <br>
      <div class="viper-subtitle">WE DELIVER</div>
      <div class="row change-row">
@@ -37,16 +36,10 @@ order: 1
         <div class="col-md-4 dive-title change-dive">Change</div>
         <div class="col-md-4"><img height="100" src="../assets/images/13.jpg"></div>
       </center>
-
-    </div>
-    <div class="viper-subtitle">TO YOUR BUSINESS</div>
-    <br><br>
-    <div class="viper-subtitle">BROUGHT TO YOU BY THE CREATORS OF <span style='letter-spacing: 0px !important'><a href="http://coala.io">coala</a></span> &amp; <span style='letter-spacing: 0px !important'><a href="http://gitmate.io">GitMate</a></span></div>
-    <div class="images row">
-
-
-    </div>
-  </div>
+</div>
+<div class="viper-subtitle">TO YOUR BUSINESS</div>
+<br><br>
+<div class="viper-subtitle">BROUGHT TO YOU BY THE CREATORS OF <span style='letter-spacing: 0px !important'><a href="http://coala.io">coala</a></span> &amp; <span style='letter-spacing: 0px !important'><a href="http://gitmate.io">GitMate</a></span></div>
 </div>
 <br><br>
 <section>

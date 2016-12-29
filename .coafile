@@ -1,8 +1,14 @@
 [default]
 bears = LineCountBear, FilenameBear, InvalidLinkBear, coalaBear
-files = **.html, **.md, **.js, **.css, **.yml
+files = **.md, **.html, **.js, **.css, **.yml
 ignore = **.min.(css|js)
 max_lines_per_file = 600
+
+[markdown]
+bears = MarkdownBear, SpaceConsistencyBear, KeywordBear
+files = **.md
+language = markdown
+use_spaces = yes
 
 [yaml]
 bears = YAMLLintBear, SpaceConsistencyBear, LineLengthBear, KeywordBear
@@ -19,12 +25,6 @@ bears = HTMLLintBear, BootLintBear, SpaceConsistencyBear, KeywordBear
 files = **.html
 language = HTML
 use_spaces = yeah
-
-[markdown]
-bears = MarkdownBear, SpaceConsistencyBear, KeywordBear
-files = **.md
-language = markdown
-use_spaces = yes
 
 [css]
 bears = CSSLintBear, SpaceConsistencyBear
